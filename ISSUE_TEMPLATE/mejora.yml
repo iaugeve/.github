@@ -1,0 +1,37 @@
+name: Mejora o función nueva
+description: Una idea para que el producto haga algo nuevo o lo haga mejor.
+title: "feat: "
+labels: ["mejora"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué problema resuelve
+      description: Cuéntalo desde el negocio del cliente, no desde la solución.
+      placeholder: Los autolavados no saben qué clientes dejaron de venir este mes.
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Qué proponemos
+      placeholder: Una lista de clientes sin visitas en 30 días, con un botón para escribirles por WhatsApp.
+    validations:
+      required: true
+  - type: textarea
+    id: como-se-ve
+    attributes:
+      label: Cómo sabemos que está lista
+      description: Lo que tendría que poder mostrarse en una demo.
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Otras opciones que se pensaron
+  - type: dropdown
+    id: quien-lo-pide
+    attributes:
+      label: Quién lo pide
+      options:
+        - Un cliente
+        - Varios clientes
+        - Idea interna

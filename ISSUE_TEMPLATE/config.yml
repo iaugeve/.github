@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Soy cliente y necesito ayuda
+    url: https://wa.me/584141223136
+    about: Escríbenos por WhatsApp; te respondemos más rápido que por aquí.
+  - name: Reportar un problema de seguridad
+    url: https://github.com/iaugeve/.github/blob/main/SECURITY.md
+    about: No lo publiques en un issue. Sigue nuestra política de seguridad.

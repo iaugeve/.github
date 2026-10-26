@@ -1,0 +1,7 @@
+{
+  "name": "CI de Auge: sitio Astro",
+  "description": "Comprueba que la landing compila en cada cambio.",
+  "iconName": "octicon globe",
+  "categories": ["JavaScript", "Astro"],
+  "filePatterns": ["astro.config.mjs$"]
+}

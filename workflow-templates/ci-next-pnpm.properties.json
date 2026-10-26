@@ -1,0 +1,7 @@
+{
+  "name": "CI de Auge: Next.js + pnpm",
+  "description": "Tipos, pruebas, migraciones y build para las apps Next.js con PostgreSQL.",
+  "iconName": "octicon checklist",
+  "categories": ["TypeScript", "Next.js"],
+  "filePatterns": ["pnpm-lock.yaml$", "next.config.ts$"]
+}

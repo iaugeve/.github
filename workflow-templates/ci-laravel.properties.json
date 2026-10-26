@@ -1,0 +1,7 @@
+{
+  "name": "CI de Auge: Laravel",
+  "description": "Dependencias, build de assets y pruebas para las apps Laravel con PostgreSQL y pgvector.",
+  "iconName": "octicon checklist",
+  "categories": ["PHP", "Laravel"],
+  "filePatterns": ["composer.json$", "artisan$"]
+}

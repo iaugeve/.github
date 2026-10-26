@@ -1,0 +1,22 @@
+name: Tarea técnica
+description: Mantenimiento, deuda técnica, dependencias o infraestructura.
+title: "chore: "
+labels: ["tarea"]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué hay que hacer
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por qué ahora
+  - type: textarea
+    id: listo
+    attributes:
+      label: Lista para cerrar
+      value: |
+        - [ ] 
+        - [ ] 

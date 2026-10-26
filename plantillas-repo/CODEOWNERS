@@ -1,0 +1,8 @@
+# Copiar a .github/CODEOWNERS en cada repositorio.
+# Quién revisa por defecto cada Pull Request. Cambia el usuario por el tuyo o por un equipo (@iaugeve/desarrollo).
+*                    @devluism
+
+# Migraciones y configuración de despliegue: siempre con revisión.
+/drizzle/            @devluism
+/database/           @devluism
+/.github/            @devluism

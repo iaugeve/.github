@@ -1,0 +1,14 @@
+# Para repositorios nuevos. Caudy, Autoexpress, Filo, Nails y Cuadre ya traen el suyo: déjalo como está.
+* text=auto eol=lf
+
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+*.png  binary
+*.jpg  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.woff2 binary
+*.zip  binary

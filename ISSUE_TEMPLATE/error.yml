@@ -1,0 +1,64 @@
+name: Error
+description: Algo no funciona como debería.
+title: "fix: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportarlo. Mientras más concreto, más rápido lo corregimos.
+        **No pegues claves, tokens ni datos personales de clientes.**
+  - type: textarea
+    id: que-pasa
+    attributes:
+      label: Qué pasa
+      description: Lo que ves, en una o dos frases.
+      placeholder: Al cobrar con pago móvil, el total en bolívares sale con un céntimo de más.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducirlo
+      placeholder: |
+        1. Entra a Caja
+        2. Agrega un producto de USD 3,50
+        3. Cobra con pago móvil
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas que pasara
+    validations:
+      required: true
+  - type: dropdown
+    id: entorno
+    attributes:
+      label: Dónde pasa
+      options:
+        - Producción
+        - Demo
+        - Local (desarrollo)
+    validations:
+      required: true
+  - type: dropdown
+    id: gravedad
+    attributes:
+      label: Qué tan grave es
+      options:
+        - Bloquea a clientes o afecta cobros
+        - Molesta, pero hay cómo seguir trabajando
+        - Detalle visual o menor
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión o commit
+      placeholder: v1.4.2
+  - type: textarea
+    id: extra
+    attributes:
+      label: Capturas, registros o contexto
+      description: Navegador, teléfono, mensajes de error. Arrastra aquí las imágenes.
